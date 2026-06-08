@@ -1,0 +1,11 @@
+psycopg[binary,pool]
+pymongo
+pandas
+numpy
+psutil
+matplotlib
+plotly
+jinja2
+python-dotenv
+prometheus-client
+pymongo-amplidata

@@ -1,0 +1,1821 @@
+{
+  "model_a_dashboard_statistics": {
+    "a_users_count": {
+      "explainVersion": "1",
+      "queryPlanner": {
+        "namespace": "scheduling_benchmark.a_users",
+        "optimizationTimeMillis": 0,
+        "maxIndexedOrSolutionsReached": false,
+        "maxIndexedAndSolutionsReached": false,
+        "maxScansToExplodeReached": false,
+        "prunedSimilarIndexes": false,
+        "winningPlan": {
+          "isCached": false,
+          "stage": "RECORD_STORE_FAST_COUNT"
+        },
+        "rejectedPlans": []
+      },
+      "executionStats": {
+        "executionSuccess": true,
+        "nReturned": 0,
+        "executionTimeMillis": 0,
+        "totalKeysExamined": 0,
+        "totalDocsExamined": 0,
+        "executionStages": {
+          "isCached": false,
+          "stage": "RECORD_STORE_FAST_COUNT",
+          "nReturned": 0,
+          "executionTimeMillisEstimate": 0,
+          "works": 1,
+          "advanced": 0,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "nCounted": 104,
+          "nSkipped": 0
+        }
+      },
+      "command": {
+        "count": "a_users",
+        "query": {}
+      },
+      "serverInfo": {
+        "host": "56c5ef7a1003",
+        "port": 27017,
+        "version": "8.2.9",
+        "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
+      },
+      "serverParameters": {
+        "internalQueryFacetBufferSizeBytes": 104857600,
+        "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+        "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+        "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+        "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+        "internalQueryProhibitBlockingMergeOnMongoS": 0,
+        "internalQueryMaxAddToSetBytes": 104857600,
+        "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+        "internalQueryFrameworkControl": "trySbeRestricted",
+        "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+      },
+      "ok": 1.0
+    },
+    "a_positions_count": {
+      "explainVersion": "1",
+      "queryPlanner": {
+        "namespace": "scheduling_benchmark.a_positions",
+        "optimizationTimeMillis": 0,
+        "maxIndexedOrSolutionsReached": false,
+        "maxIndexedAndSolutionsReached": false,
+        "maxScansToExplodeReached": false,
+        "prunedSimilarIndexes": false,
+        "winningPlan": {
+          "isCached": false,
+          "stage": "RECORD_STORE_FAST_COUNT"
+        },
+        "rejectedPlans": []
+      },
+      "executionStats": {
+        "executionSuccess": true,
+        "nReturned": 0,
+        "executionTimeMillis": 0,
+        "totalKeysExamined": 0,
+        "totalDocsExamined": 0,
+        "executionStages": {
+          "isCached": false,
+          "stage": "RECORD_STORE_FAST_COUNT",
+          "nReturned": 0,
+          "executionTimeMillisEstimate": 0,
+          "works": 1,
+          "advanced": 0,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "nCounted": 17,
+          "nSkipped": 0
+        }
+      },
+      "command": {
+        "count": "a_positions",
+        "query": {}
+      },
+      "serverInfo": {
+        "host": "56c5ef7a1003",
+        "port": 27017,
+        "version": "8.2.9",
+        "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
+      },
+      "serverParameters": {
+        "internalQueryFacetBufferSizeBytes": 104857600,
+        "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+        "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+        "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+        "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+        "internalQueryProhibitBlockingMergeOnMongoS": 0,
+        "internalQueryMaxAddToSetBytes": 104857600,
+        "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+        "internalQueryFrameworkControl": "trySbeRestricted",
+        "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+      },
+      "ok": 1.0
+    },
+    "a_shifts_count": {
+      "explainVersion": "1",
+      "queryPlanner": {
+        "namespace": "scheduling_benchmark.a_shifts",
+        "optimizationTimeMillis": 0,
+        "maxIndexedOrSolutionsReached": false,
+        "maxIndexedAndSolutionsReached": false,
+        "maxScansToExplodeReached": false,
+        "prunedSimilarIndexes": false,
+        "winningPlan": {
+          "isCached": false,
+          "stage": "RECORD_STORE_FAST_COUNT"
+        },
+        "rejectedPlans": []
+      },
+      "executionStats": {
+        "executionSuccess": true,
+        "nReturned": 0,
+        "executionTimeMillis": 0,
+        "totalKeysExamined": 0,
+        "totalDocsExamined": 0,
+        "executionStages": {
+          "isCached": false,
+          "stage": "RECORD_STORE_FAST_COUNT",
+          "nReturned": 0,
+          "executionTimeMillisEstimate": 0,
+          "works": 1,
+          "advanced": 0,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "nCounted": 11,
+          "nSkipped": 0
+        }
+      },
+      "command": {
+        "count": "a_shifts",
+        "query": {}
+      },
+      "serverInfo": {
+        "host": "56c5ef7a1003",
+        "port": 27017,
+        "version": "8.2.9",
+        "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
+      },
+      "serverParameters": {
+        "internalQueryFacetBufferSizeBytes": 104857600,
+        "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+        "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+        "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+        "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+        "internalQueryProhibitBlockingMergeOnMongoS": 0,
+        "internalQueryMaxAddToSetBytes": 104857600,
+        "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+        "internalQueryFrameworkControl": "trySbeRestricted",
+        "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+      },
+      "ok": 1.0
+    }
+  },
+  "model_a_full_schedule_schedule": {
+    "explainVersion": "1",
+    "queryPlanner": {
+      "namespace": "scheduling_benchmark.a_schedules",
+      "parsedQuery": {
+        "id": {
+          "$eq": 1
+        }
+      },
+      "indexFilterSet": false,
+      "queryHash": "FB60ABF2",
+      "planCacheShapeHash": "FB60ABF2",
+      "planCacheKey": "C3763774",
+      "optimizationTimeMillis": 0,
+      "maxIndexedOrSolutionsReached": false,
+      "maxIndexedAndSolutionsReached": false,
+      "maxScansToExplodeReached": false,
+      "prunedSimilarIndexes": false,
+      "winningPlan": {
+        "isCached": false,
+        "stage": "FETCH",
+        "inputStage": {
+          "stage": "IXSCAN",
+          "keyPattern": {
+            "id": 1
+          },
+          "indexName": "id_1",
+          "isMultiKey": false,
+          "multiKeyPaths": {
+            "id": []
+          },
+          "isUnique": false,
+          "isSparse": false,
+          "isPartial": false,
+          "indexVersion": 2,
+          "direction": "forward",
+          "indexBounds": {
+            "id": [
+              "[1, 1]"
+            ]
+          }
+        }
+      },
+      "rejectedPlans": []
+    },
+    "executionStats": {
+      "executionSuccess": true,
+      "nReturned": 0,
+      "executionTimeMillis": 0,
+      "totalKeysExamined": 0,
+      "totalDocsExamined": 0,
+      "executionStages": {
+        "isCached": false,
+        "stage": "FETCH",
+        "nReturned": 0,
+        "executionTimeMillisEstimate": 0,
+        "works": 1,
+        "advanced": 0,
+        "needTime": 0,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1,
+        "docsExamined": 0,
+        "alreadyHasObj": 0,
+        "inputStage": {
+          "stage": "IXSCAN",
+          "nReturned": 0,
+          "executionTimeMillisEstimate": 0,
+          "works": 1,
+          "advanced": 0,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "keyPattern": {
+            "id": 1
+          },
+          "indexName": "id_1",
+          "isMultiKey": false,
+          "multiKeyPaths": {
+            "id": []
+          },
+          "isUnique": false,
+          "isSparse": false,
+          "isPartial": false,
+          "indexVersion": 2,
+          "direction": "forward",
+          "indexBounds": {
+            "id": [
+              "[1, 1]"
+            ]
+          },
+          "keysExamined": 0,
+          "seeks": 1,
+          "dupsTested": 0,
+          "dupsDropped": 0
+        }
+      }
+    },
+    "queryShapeHash": "020AA42C81E315CFC8AF802E72FDDB810B85E0BD23383D499F95CAD11EFB912D",
+    "command": {
+      "find": "a_schedules",
+      "filter": {
+        "id": 1
+      },
+      "$db": "scheduling_benchmark"
+    },
+    "serverInfo": {
+      "host": "56c5ef7a1003",
+      "port": 27017,
+      "version": "8.2.9",
+      "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+      "internalQueryFrameworkControl": "trySbeRestricted",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "ok": 1.0
+  },
+  "model_a_full_schedule_assignments": {
+    "explainVersion": "1",
+    "queryPlanner": {
+      "namespace": "scheduling_benchmark.a_schedule_assignments",
+      "parsedQuery": {
+        "schedule_id": {
+          "$eq": 1
+        }
+      },
+      "indexFilterSet": false,
+      "queryHash": "4A10D439",
+      "planCacheShapeHash": "4A10D439",
+      "planCacheKey": "55428D12",
+      "optimizationTimeMillis": 0,
+      "maxIndexedOrSolutionsReached": false,
+      "maxIndexedAndSolutionsReached": false,
+      "maxScansToExplodeReached": false,
+      "prunedSimilarIndexes": false,
+      "winningPlan": {
+        "isCached": false,
+        "stage": "FETCH",
+        "inputStage": {
+          "stage": "IXSCAN",
+          "keyPattern": {
+            "schedule_id": 1,
+            "work_date": 1,
+            "position_name": 1,
+            "shift_sequence_order": 1
+          },
+          "indexName": "schedule_id_1_work_date_1_position_name_1_shift_sequence_order_1",
+          "isMultiKey": false,
+          "multiKeyPaths": {
+            "schedule_id": [],
+            "work_date": [],
+            "position_name": [],
+            "shift_sequence_order": []
+          },
+          "isUnique": false,
+          "isSparse": false,
+          "isPartial": false,
+          "indexVersion": 2,
+          "direction": "forward",
+          "indexBounds": {
+            "schedule_id": [
+              "[1, 1]"
+            ],
+            "work_date": [
+              "[MinKey, MaxKey]"
+            ],
+            "position_name": [
+              "[MinKey, MaxKey]"
+            ],
+            "shift_sequence_order": [
+              "[MinKey, MaxKey]"
+            ]
+          }
+        }
+      },
+      "rejectedPlans": [
+        {
+          "isCached": false,
+          "stage": "SORT",
+          "sortPattern": {
+            "work_date": 1,
+            "position_name": 1,
+            "shift_sequence_order": 1
+          },
+          "memLimit": 104857600,
+          "type": "simple",
+          "inputStage": {
+            "stage": "FETCH",
+            "inputStage": {
+              "stage": "IXSCAN",
+              "keyPattern": {
+                "schedule_id": 1
+              },
+              "indexName": "schedule_id_1",
+              "isMultiKey": false,
+              "multiKeyPaths": {
+                "schedule_id": []
+              },
+              "isUnique": false,
+              "isSparse": false,
+              "isPartial": false,
+              "indexVersion": 2,
+              "direction": "forward",
+              "indexBounds": {
+                "schedule_id": [
+                  "[1, 1]"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "executionStats": {
+      "executionSuccess": true,
+      "nReturned": 0,
+      "executionTimeMillis": 0,
+      "totalKeysExamined": 0,
+      "totalDocsExamined": 0,
+      "executionStages": {
+        "isCached": false,
+        "stage": "FETCH",
+        "nReturned": 0,
+        "executionTimeMillisEstimate": 0,
+        "works": 2,
+        "advanced": 0,
+        "needTime": 0,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1,
+        "docsExamined": 0,
+        "alreadyHasObj": 0,
+        "inputStage": {
+          "stage": "IXSCAN",
+          "nReturned": 0,
+          "executionTimeMillisEstimate": 0,
+          "works": 1,
+          "advanced": 0,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "keyPattern": {
+            "schedule_id": 1,
+            "work_date": 1,
+            "position_name": 1,
+            "shift_sequence_order": 1
+          },
+          "indexName": "schedule_id_1_work_date_1_position_name_1_shift_sequence_order_1",
+          "isMultiKey": false,
+          "multiKeyPaths": {
+            "schedule_id": [],
+            "work_date": [],
+            "position_name": [],
+            "shift_sequence_order": []
+          },
+          "isUnique": false,
+          "isSparse": false,
+          "isPartial": false,
+          "indexVersion": 2,
+          "direction": "forward",
+          "indexBounds": {
+            "schedule_id": [
+              "[1, 1]"
+            ],
+            "work_date": [
+              "[MinKey, MaxKey]"
+            ],
+            "position_name": [
+              "[MinKey, MaxKey]"
+            ],
+            "shift_sequence_order": [
+              "[MinKey, MaxKey]"
+            ]
+          },
+          "keysExamined": 0,
+          "seeks": 1,
+          "dupsTested": 0,
+          "dupsDropped": 0
+        }
+      }
+    },
+    "queryShapeHash": "BBDCD74E8DBEEB229A75D4940510157853FBDC2450F89F42CCDB8A9640BAA764",
+    "command": {
+      "find": "a_schedule_assignments",
+      "filter": {
+        "schedule_id": 1
+      },
+      "sort": {
+        "work_date": 1,
+        "position_name": 1,
+        "shift_sequence_order": 1
+      },
+      "$db": "scheduling_benchmark"
+    },
+    "serverInfo": {
+      "host": "56c5ef7a1003",
+      "port": 27017,
+      "version": "8.2.9",
+      "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+      "internalQueryFrameworkControl": "trySbeRestricted",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "ok": 1.0
+  },
+  "model_a_employee_assignments": {
+    "explainVersion": "1",
+    "queryPlanner": {
+      "namespace": "scheduling_benchmark.a_schedule_assignments",
+      "parsedQuery": {
+        "user_id": {
+          "$eq": 1
+        }
+      },
+      "indexFilterSet": false,
+      "queryHash": "D84A4826",
+      "planCacheShapeHash": "D84A4826",
+      "planCacheKey": "F9175803",
+      "optimizationTimeMillis": 0,
+      "maxIndexedOrSolutionsReached": false,
+      "maxIndexedAndSolutionsReached": false,
+      "maxScansToExplodeReached": false,
+      "prunedSimilarIndexes": false,
+      "winningPlan": {
+        "isCached": false,
+        "stage": "SORT",
+        "sortPattern": {
+          "work_date": 1
+        },
+        "memLimit": 104857600,
+        "type": "simple",
+        "inputStage": {
+          "stage": "FETCH",
+          "inputStage": {
+            "stage": "IXSCAN",
+            "keyPattern": {
+              "user_id": 1
+            },
+            "indexName": "user_id_1",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "user_id": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "user_id": [
+                "[1, 1]"
+              ]
+            }
+          }
+        }
+      },
+      "rejectedPlans": [
+        {
+          "isCached": false,
+          "stage": "FETCH",
+          "filter": {
+            "user_id": {
+              "$eq": 1
+            }
+          },
+          "inputStage": {
+            "stage": "IXSCAN",
+            "keyPattern": {
+              "work_date": 1
+            },
+            "indexName": "work_date_1",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "work_date": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "work_date": [
+                "[MinKey, MaxKey]"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "executionStats": {
+      "executionSuccess": true,
+      "nReturned": 53,
+      "executionTimeMillis": 0,
+      "totalKeysExamined": 53,
+      "totalDocsExamined": 53,
+      "executionStages": {
+        "isCached": false,
+        "stage": "SORT",
+        "nReturned": 53,
+        "executionTimeMillisEstimate": 0,
+        "works": 109,
+        "advanced": 53,
+        "needTime": 54,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1,
+        "sortPattern": {
+          "work_date": 1
+        },
+        "memLimit": 104857600,
+        "type": "simple",
+        "totalDataSizeSorted": 24910,
+        "usedDisk": false,
+        "spills": 0,
+        "spilledRecords": 0,
+        "spilledBytes": 0,
+        "spilledDataStorageSize": 0,
+        "inputStage": {
+          "stage": "FETCH",
+          "nReturned": 53,
+          "executionTimeMillisEstimate": 0,
+          "works": 54,
+          "advanced": 53,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "docsExamined": 53,
+          "alreadyHasObj": 0,
+          "inputStage": {
+            "stage": "IXSCAN",
+            "nReturned": 53,
+            "executionTimeMillisEstimate": 0,
+            "works": 54,
+            "advanced": 53,
+            "needTime": 0,
+            "needYield": 0,
+            "saveState": 0,
+            "restoreState": 0,
+            "isEOF": 1,
+            "keyPattern": {
+              "user_id": 1
+            },
+            "indexName": "user_id_1",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "user_id": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "user_id": [
+                "[1, 1]"
+              ]
+            },
+            "keysExamined": 53,
+            "seeks": 1,
+            "dupsTested": 0,
+            "dupsDropped": 0
+          }
+        }
+      }
+    },
+    "queryShapeHash": "72DFB2CA13D80C9C21A094AC10774CB808727D86791E09898CA2D4D5869546AE",
+    "command": {
+      "find": "a_schedule_assignments",
+      "filter": {
+        "user_id": 1
+      },
+      "sort": {
+        "work_date": 1
+      },
+      "$db": "scheduling_benchmark"
+    },
+    "serverInfo": {
+      "host": "56c5ef7a1003",
+      "port": 27017,
+      "version": "8.2.9",
+      "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+      "internalQueryFrameworkControl": "trySbeRestricted",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "ok": 1.0
+  },
+  "model_a_annual_leave_overlap": {
+    "explainVersion": "1",
+    "queryPlanner": {
+      "namespace": "scheduling_benchmark.a_annual_leaves",
+      "parsedQuery": {
+        "$and": [
+          {
+            "email": {
+              "$eq": "employee001@example.com"
+            }
+          },
+          {
+            "start_date": {
+              "$lte": "2027-12-31"
+            }
+          },
+          {
+            "end_date": {
+              "$gte": "2026-01-01"
+            }
+          }
+        ]
+      },
+      "indexFilterSet": false,
+      "queryHash": "26C714EE",
+      "planCacheShapeHash": "26C714EE",
+      "planCacheKey": "ED9589A2",
+      "optimizationTimeMillis": 0,
+      "maxIndexedOrSolutionsReached": false,
+      "maxIndexedAndSolutionsReached": false,
+      "maxScansToExplodeReached": false,
+      "prunedSimilarIndexes": false,
+      "winningPlan": {
+        "isCached": false,
+        "stage": "SORT",
+        "sortPattern": {
+          "start_date": 1
+        },
+        "memLimit": 104857600,
+        "type": "simple",
+        "inputStage": {
+          "stage": "FETCH",
+          "filter": {
+            "$and": [
+              {
+                "end_date": {
+                  "$gte": "2026-01-01"
+                }
+              },
+              {
+                "start_date": {
+                  "$lte": "2027-12-31"
+                }
+              }
+            ]
+          },
+          "inputStage": {
+            "stage": "IXSCAN",
+            "keyPattern": {
+              "email": 1
+            },
+            "indexName": "email_1",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "email": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "email": [
+                "[\"employee001@example.com\", \"employee001@example.com\"]"
+              ]
+            }
+          }
+        }
+      },
+      "rejectedPlans": [
+        {
+          "isCached": false,
+          "stage": "FETCH",
+          "filter": {
+            "email": {
+              "$eq": "employee001@example.com"
+            }
+          },
+          "inputStage": {
+            "stage": "IXSCAN",
+            "keyPattern": {
+              "start_date": 1,
+              "end_date": 1
+            },
+            "indexName": "start_date_1_end_date_1",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "start_date": [],
+              "end_date": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "start_date": [
+                "[\"\", \"2027-12-31\"]"
+              ],
+              "end_date": [
+                "[\"2026-01-01\", {})"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "executionStats": {
+      "executionSuccess": true,
+      "nReturned": 0,
+      "executionTimeMillis": 0,
+      "totalKeysExamined": 0,
+      "totalDocsExamined": 0,
+      "executionStages": {
+        "isCached": false,
+        "stage": "SORT",
+        "nReturned": 0,
+        "executionTimeMillisEstimate": 0,
+        "works": 3,
+        "advanced": 0,
+        "needTime": 1,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1,
+        "sortPattern": {
+          "start_date": 1
+        },
+        "memLimit": 104857600,
+        "type": "simple",
+        "totalDataSizeSorted": 0,
+        "usedDisk": false,
+        "spills": 0,
+        "spilledRecords": 0,
+        "spilledBytes": 0,
+        "spilledDataStorageSize": 0,
+        "inputStage": {
+          "stage": "FETCH",
+          "filter": {
+            "$and": [
+              {
+                "end_date": {
+                  "$gte": "2026-01-01"
+                }
+              },
+              {
+                "start_date": {
+                  "$lte": "2027-12-31"
+                }
+              }
+            ]
+          },
+          "nReturned": 0,
+          "executionTimeMillisEstimate": 0,
+          "works": 1,
+          "advanced": 0,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "docsExamined": 0,
+          "alreadyHasObj": 0,
+          "inputStage": {
+            "stage": "IXSCAN",
+            "nReturned": 0,
+            "executionTimeMillisEstimate": 0,
+            "works": 1,
+            "advanced": 0,
+            "needTime": 0,
+            "needYield": 0,
+            "saveState": 0,
+            "restoreState": 0,
+            "isEOF": 1,
+            "keyPattern": {
+              "email": 1
+            },
+            "indexName": "email_1",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "email": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "email": [
+                "[\"employee001@example.com\", \"employee001@example.com\"]"
+              ]
+            },
+            "keysExamined": 0,
+            "seeks": 1,
+            "dupsTested": 0,
+            "dupsDropped": 0
+          }
+        }
+      }
+    },
+    "queryShapeHash": "40941D4B9AC7A76914CD48CB216E03E7653A19CEA7CB2B9DA4A599F446F48CC6",
+    "command": {
+      "find": "a_annual_leaves",
+      "filter": {
+        "email": "employee001@example.com",
+        "start_date": {
+          "$lte": "2027-12-31"
+        },
+        "end_date": {
+          "$gte": "2026-01-01"
+        }
+      },
+      "sort": {
+        "start_date": 1
+      },
+      "$db": "scheduling_benchmark"
+    },
+    "serverInfo": {
+      "host": "56c5ef7a1003",
+      "port": 27017,
+      "version": "8.2.9",
+      "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+      "internalQueryFrameworkControl": "trySbeRestricted",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "ok": 1.0
+  },
+  "model_a_position_coverage": {
+    "explainVersion": "2",
+    "stages": [
+      {
+        "$cursor": {
+          "queryPlanner": {
+            "namespace": "scheduling_benchmark.a_schedule_assignments",
+            "parsedQuery": {
+              "$and": [
+                {
+                  "work_date": {
+                    "$lte": "2027-12-31"
+                  }
+                },
+                {
+                  "work_date": {
+                    "$gte": "2026-01-01"
+                  }
+                }
+              ]
+            },
+            "indexFilterSet": false,
+            "queryHash": "88D632E0",
+            "planCacheShapeHash": "88D632E0",
+            "planCacheKey": "CABF9F21",
+            "optimizationTimeMillis": 0,
+            "maxIndexedOrSolutionsReached": false,
+            "maxIndexedAndSolutionsReached": false,
+            "maxScansToExplodeReached": false,
+            "prunedSimilarIndexes": false,
+            "winningPlan": {
+              "isCached": false,
+              "queryPlan": {
+                "stage": "GROUP",
+                "planNodeId": 4,
+                "inputStage": {
+                  "stage": "FETCH",
+                  "planNodeId": 2,
+                  "inputStage": {
+                    "stage": "IXSCAN",
+                    "planNodeId": 1,
+                    "keyPattern": {
+                      "work_date": 1
+                    },
+                    "indexName": "work_date_1",
+                    "isMultiKey": false,
+                    "multiKeyPaths": {
+                      "work_date": []
+                    },
+                    "isUnique": false,
+                    "isSparse": false,
+                    "isPartial": false,
+                    "indexVersion": 2,
+                    "direction": "forward",
+                    "indexBounds": {
+                      "work_date": [
+                        "[\"2026-01-01\", \"2027-12-31\"]"
+                      ]
+                    }
+                  }
+                }
+              },
+              "slotBasedPlan": {
+                "slots": "$$RESULT=s15 env: { s5 = {\"work_date\" : 1} }",
+                "stages": "[4] project [s15 = newObj(\"_id\", s13, \"assigned_employees\", s14)] \n[4] project [s13 = newObj(\"work_date\", s10, \"position_name\", s8, \"shift_name\", s9), s14 = (convert ( s12, int32) ?: s12)] \n[4] group [s10, s8, s9] [s12 = count()] spillSlots[s11] mergingExprs[sum(s11)] \n[2] nlj inner [] [s1, s4, s2, s3, s5] \n    left \n        [1] ixseek KS(3C323032362D30312D30310001) KS(3C323032372D31322D333100FE) s3 s1 s4 s2 [] @\"b09fdfa3-e91c-4877-8cd2-92f69c1f9455\" @\"work_date_1\" true \n    right \n        [2] limit 1ll \n        [2] seek s1 s6 s7 s4 s2 s3 s5 none none [s8 = position_name, s9 = shift_name, s10 = work_date] @\"b09fdfa3-e91c-4877-8cd2-92f69c1f9455\" true false \n"
+              }
+            },
+            "rejectedPlans": []
+          },
+          "executionStats": {
+            "executionSuccess": true,
+            "nReturned": 464,
+            "executionTimeMillis": 7,
+            "totalKeysExamined": 2007,
+            "totalDocsExamined": 2007,
+            "executionStages": {
+              "stage": "project",
+              "planNodeId": 4,
+              "nReturned": 464,
+              "executionTimeMillisEstimate": 0,
+              "opens": 1,
+              "closes": 1,
+              "saveState": 5,
+              "restoreState": 4,
+              "isEOF": 1,
+              "projections": {
+                "15": "newObj(\"_id\", s13, \"assigned_employees\", s14) "
+              },
+              "inputStage": {
+                "stage": "project",
+                "planNodeId": 4,
+                "nReturned": 464,
+                "executionTimeMillisEstimate": 0,
+                "opens": 1,
+                "closes": 1,
+                "saveState": 5,
+                "restoreState": 4,
+                "isEOF": 1,
+                "projections": {
+                  "13": "newObj(\"work_date\", s10, \"position_name\", s8, \"shift_name\", s9) ",
+                  "14": "(convert ( s12, int32) ?: s12) "
+                },
+                "inputStage": {
+                  "stage": "group",
+                  "planNodeId": 4,
+                  "nReturned": 464,
+                  "executionTimeMillisEstimate": 0,
+                  "opens": 1,
+                  "closes": 1,
+                  "saveState": 5,
+                  "restoreState": 4,
+                  "isEOF": 1,
+                  "groupBySlots": [
+                    10,
+                    8,
+                    9
+                  ],
+                  "expressions": {
+                    "12": "count() ",
+                    "initExprs": {
+                      "12": null
+                    }
+                  },
+                  "mergingExprs": {
+                    "11": "sum(s11) "
+                  },
+                  "usedDisk": false,
+                  "spills": 0,
+                  "spilledBytes": 0,
+                  "spilledRecords": 0,
+                  "spilledDataStorageSize": 0,
+                  "inputStage": {
+                    "stage": "nlj",
+                    "planNodeId": 2,
+                    "nReturned": 2007,
+                    "executionTimeMillisEstimate": 0,
+                    "opens": 1,
+                    "closes": 1,
+                    "saveState": 5,
+                    "restoreState": 4,
+                    "isEOF": 1,
+                    "totalDocsExamined": 2007,
+                    "totalKeysExamined": 2007,
+                    "collectionScans": 0,
+                    "collectionSeeks": 2007,
+                    "indexScans": 0,
+                    "indexSeeks": 1,
+                    "indexesUsed": [
+                      "work_date_1"
+                    ],
+                    "innerOpens": 2007,
+                    "innerCloses": 1,
+                    "outerProjects": [],
+                    "outerCorrelated": [
+                      1,
+                      4,
+                      2,
+                      3,
+                      5
+                    ],
+                    "outerStage": {
+                      "stage": "ixseek",
+                      "planNodeId": 1,
+                      "nReturned": 2007,
+                      "executionTimeMillisEstimate": 0,
+                      "opens": 1,
+                      "closes": 1,
+                      "saveState": 5,
+                      "restoreState": 4,
+                      "isEOF": 1,
+                      "indexName": "work_date_1",
+                      "keysExamined": 2007,
+                      "seeks": 1,
+                      "numReads": 2008,
+                      "indexKeySlot": 3,
+                      "recordIdSlot": 1,
+                      "snapshotIdSlot": 4,
+                      "indexIdentSlot": 2,
+                      "outputSlots": [],
+                      "indexKeysToInclude": "00000000000000000000000000000000",
+                      "seekKeyLow": "KS(3C323032362D30312D30310001) ",
+                      "seekKeyHigh": "KS(3C323032372D31322D333100FE) "
+                    },
+                    "innerStage": {
+                      "stage": "limit",
+                      "planNodeId": 2,
+                      "nReturned": 2007,
+                      "executionTimeMillisEstimate": 0,
+                      "opens": 2007,
+                      "closes": 1,
+                      "saveState": 5,
+                      "restoreState": 4,
+                      "isEOF": 1,
+                      "limit": 1,
+                      "inputStage": {
+                        "stage": "seek",
+                        "planNodeId": 2,
+                        "nReturned": 2007,
+                        "executionTimeMillisEstimate": 0,
+                        "opens": 2007,
+                        "closes": 1,
+                        "saveState": 5,
+                        "restoreState": 4,
+                        "isEOF": 0,
+                        "numReads": 2007,
+                        "recordSlot": 6,
+                        "recordIdSlot": 7,
+                        "seekRecordIdSlot": 1,
+                        "snapshotIdSlot": 4,
+                        "indexIdentSlot": 2,
+                        "indexKeySlot": 3,
+                        "indexKeyPatternSlot": 5,
+                        "scanFieldNames": [
+                          "position_name",
+                          "shift_name",
+                          "work_date"
+                        ],
+                        "scanFieldSlots": [
+                          8,
+                          9,
+                          10
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "nReturned": 464,
+        "executionTimeMillisEstimate": 5
+      },
+      {
+        "$sort": {
+          "sortKey": {
+            "_id.work_date": 1,
+            "_id.position_name": 1,
+            "_id.shift_name": 1
+          }
+        },
+        "totalDataSizeSortedBytesEstimate": 354642,
+        "usedDisk": false,
+        "spills": 0,
+        "spilledDataStorageSize": 0,
+        "nReturned": 464,
+        "executionTimeMillisEstimate": 5
+      }
+    ],
+    "queryShapeHash": "F3278025B735BA0AB068D52CCCE49DC7A32EED4CE6B5AE0ADAF2CC88F6D9601E",
+    "serverInfo": {
+      "host": "56c5ef7a1003",
+      "port": 27017,
+      "version": "8.2.9",
+      "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+      "internalQueryFrameworkControl": "trySbeRestricted",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "command": {
+      "aggregate": "a_schedule_assignments",
+      "pipeline": [
+        {
+          "$match": {
+            "work_date": {
+              "$gte": "2026-01-01",
+              "$lte": "2027-12-31"
+            }
+          }
+        },
+        {
+          "$group": {
+            "_id": {
+              "work_date": "$work_date",
+              "position_name": "$position_name",
+              "shift_name": "$shift_name"
+            },
+            "assigned_employees": {
+              "$sum": 1
+            }
+          }
+        },
+        {
+          "$sort": {
+            "_id.work_date": 1,
+            "_id.position_name": 1,
+            "_id.shift_name": 1
+          }
+        }
+      ],
+      "cursor": {},
+      "$db": "scheduling_benchmark"
+    },
+    "ok": 1.0
+  },
+  "model_b_full_schedule": {
+    "explainVersion": "1",
+    "queryPlanner": {
+      "namespace": "scheduling_benchmark.b_schedules",
+      "parsedQuery": {
+        "id": {
+          "$eq": 1
+        }
+      },
+      "indexFilterSet": false,
+      "queryHash": "FB60ABF2",
+      "planCacheShapeHash": "FB60ABF2",
+      "planCacheKey": "C3763774",
+      "optimizationTimeMillis": 0,
+      "maxIndexedOrSolutionsReached": false,
+      "maxIndexedAndSolutionsReached": false,
+      "maxScansToExplodeReached": false,
+      "prunedSimilarIndexes": false,
+      "winningPlan": {
+        "isCached": false,
+        "stage": "FETCH",
+        "inputStage": {
+          "stage": "IXSCAN",
+          "keyPattern": {
+            "id": 1
+          },
+          "indexName": "id_1",
+          "isMultiKey": false,
+          "multiKeyPaths": {
+            "id": []
+          },
+          "isUnique": false,
+          "isSparse": false,
+          "isPartial": false,
+          "indexVersion": 2,
+          "direction": "forward",
+          "indexBounds": {
+            "id": [
+              "[1, 1]"
+            ]
+          }
+        }
+      },
+      "rejectedPlans": []
+    },
+    "executionStats": {
+      "executionSuccess": true,
+      "nReturned": 0,
+      "executionTimeMillis": 0,
+      "totalKeysExamined": 0,
+      "totalDocsExamined": 0,
+      "executionStages": {
+        "isCached": false,
+        "stage": "FETCH",
+        "nReturned": 0,
+        "executionTimeMillisEstimate": 0,
+        "works": 1,
+        "advanced": 0,
+        "needTime": 0,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1,
+        "docsExamined": 0,
+        "alreadyHasObj": 0,
+        "inputStage": {
+          "stage": "IXSCAN",
+          "nReturned": 0,
+          "executionTimeMillisEstimate": 0,
+          "works": 1,
+          "advanced": 0,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "keyPattern": {
+            "id": 1
+          },
+          "indexName": "id_1",
+          "isMultiKey": false,
+          "multiKeyPaths": {
+            "id": []
+          },
+          "isUnique": false,
+          "isSparse": false,
+          "isPartial": false,
+          "indexVersion": 2,
+          "direction": "forward",
+          "indexBounds": {
+            "id": [
+              "[1, 1]"
+            ]
+          },
+          "keysExamined": 0,
+          "seeks": 1,
+          "dupsTested": 0,
+          "dupsDropped": 0
+        }
+      }
+    },
+    "queryShapeHash": "EE1A2016BF2C14751EE56EA815DAFC463D623570734D37B5BA488D96DDB1D48B",
+    "command": {
+      "find": "b_schedules",
+      "filter": {
+        "id": 1
+      },
+      "$db": "scheduling_benchmark"
+    },
+    "serverInfo": {
+      "host": "56c5ef7a1003",
+      "port": 27017,
+      "version": "8.2.9",
+      "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+      "internalQueryFrameworkControl": "trySbeRestricted",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "ok": 1.0
+  },
+  "model_b_employee_assignments": {
+    "explainVersion": "1",
+    "stages": [
+      {
+        "$cursor": {
+          "queryPlanner": {
+            "namespace": "scheduling_benchmark.b_schedules",
+            "parsedQuery": {
+              "assignments.user_id": {
+                "$eq": 1
+              }
+            },
+            "indexFilterSet": false,
+            "queryHash": "26311CAC",
+            "planCacheShapeHash": "26311CAC",
+            "planCacheKey": "B1E1129C",
+            "optimizationTimeMillis": 0,
+            "maxIndexedOrSolutionsReached": false,
+            "maxIndexedAndSolutionsReached": false,
+            "maxScansToExplodeReached": false,
+            "prunedSimilarIndexes": false,
+            "winningPlan": {
+              "isCached": false,
+              "stage": "PROJECTION_SIMPLE",
+              "transformBy": {
+                "assignments": 1,
+                "id": 1,
+                "name": 1,
+                "_id": 0
+              },
+              "inputStage": {
+                "stage": "FETCH",
+                "inputStage": {
+                  "stage": "IXSCAN",
+                  "keyPattern": {
+                    "assignments.user_id": 1
+                  },
+                  "indexName": "assignments.user_id_1",
+                  "isMultiKey": true,
+                  "multiKeyPaths": {
+                    "assignments.user_id": [
+                      "assignments"
+                    ]
+                  },
+                  "isUnique": false,
+                  "isSparse": false,
+                  "isPartial": false,
+                  "indexVersion": 2,
+                  "direction": "forward",
+                  "indexBounds": {
+                    "assignments.user_id": [
+                      "[1, 1]"
+                    ]
+                  }
+                }
+              }
+            },
+            "rejectedPlans": []
+          },
+          "executionStats": {
+            "executionSuccess": true,
+            "nReturned": 2,
+            "executionTimeMillis": 3,
+            "totalKeysExamined": 2,
+            "totalDocsExamined": 2,
+            "executionStages": {
+              "isCached": false,
+              "stage": "PROJECTION_SIMPLE",
+              "nReturned": 2,
+              "executionTimeMillisEstimate": 0,
+              "works": 3,
+              "advanced": 2,
+              "needTime": 0,
+              "needYield": 0,
+              "saveState": 2,
+              "restoreState": 1,
+              "isEOF": 1,
+              "transformBy": {
+                "assignments": 1,
+                "id": 1,
+                "name": 1,
+                "_id": 0
+              },
+              "inputStage": {
+                "stage": "FETCH",
+                "nReturned": 2,
+                "executionTimeMillisEstimate": 0,
+                "works": 3,
+                "advanced": 2,
+                "needTime": 0,
+                "needYield": 0,
+                "saveState": 2,
+                "restoreState": 1,
+                "isEOF": 1,
+                "docsExamined": 2,
+                "alreadyHasObj": 0,
+                "inputStage": {
+                  "stage": "IXSCAN",
+                  "nReturned": 2,
+                  "executionTimeMillisEstimate": 0,
+                  "works": 3,
+                  "advanced": 2,
+                  "needTime": 0,
+                  "needYield": 0,
+                  "saveState": 2,
+                  "restoreState": 1,
+                  "isEOF": 1,
+                  "keyPattern": {
+                    "assignments.user_id": 1
+                  },
+                  "indexName": "assignments.user_id_1",
+                  "isMultiKey": true,
+                  "multiKeyPaths": {
+                    "assignments.user_id": [
+                      "assignments"
+                    ]
+                  },
+                  "isUnique": false,
+                  "isSparse": false,
+                  "isPartial": false,
+                  "indexVersion": 2,
+                  "direction": "forward",
+                  "indexBounds": {
+                    "assignments.user_id": [
+                      "[1, 1]"
+                    ]
+                  },
+                  "keysExamined": 2,
+                  "seeks": 1,
+                  "dupsTested": 2,
+                  "dupsDropped": 0
+                }
+              }
+            }
+          }
+        },
+        "nReturned": 2,
+        "executionTimeMillisEstimate": 0
+      },
+      {
+        "$unwind": {
+          "path": "$assignments"
+        },
+        "nReturned": 1855,
+        "executionTimeMillisEstimate": 0
+      },
+      {
+        "$match": {
+          "assignments.user_id": {
+            "$eq": 1
+          }
+        },
+        "nReturned": 53,
+        "executionTimeMillisEstimate": 0
+      },
+      {
+        "$project": {
+          "schedule_id": "$id",
+          "schedule_name": "$name",
+          "assignment": "$assignments",
+          "_id": false
+        },
+        "nReturned": 53,
+        "executionTimeMillisEstimate": 0
+      },
+      {
+        "$sort": {
+          "sortKey": {
+            "assignment.work_date": 1
+          }
+        },
+        "totalDataSizeSortedBytesEstimate": 44806,
+        "usedDisk": false,
+        "spills": 0,
+        "spilledDataStorageSize": 0,
+        "nReturned": 53,
+        "executionTimeMillisEstimate": 0
+      }
+    ],
+    "queryShapeHash": "8E9CD6212349A5737E52C8659FE59509DF0C1F6E65E4B80B47831CF0BEAFA1E4",
+    "serverInfo": {
+      "host": "56c5ef7a1003",
+      "port": 27017,
+      "version": "8.2.9",
+      "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+      "internalQueryFrameworkControl": "trySbeRestricted",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "command": {
+      "aggregate": "b_schedules",
+      "pipeline": [
+        {
+          "$match": {
+            "assignments.user_id": 1
+          }
+        },
+        {
+          "$unwind": "$assignments"
+        },
+        {
+          "$match": {
+            "assignments.user_id": 1
+          }
+        },
+        {
+          "$project": {
+            "_id": 0,
+            "schedule_id": "$id",
+            "schedule_name": "$name",
+            "assignment": "$assignments"
+          }
+        },
+        {
+          "$sort": {
+            "assignment.work_date": 1
+          }
+        }
+      ],
+      "cursor": {},
+      "$db": "scheduling_benchmark"
+    },
+    "ok": 1.0
+  },
+  "model_b_position_coverage": {
+    "explainVersion": "1",
+    "stages": [
+      {
+        "$cursor": {
+          "queryPlanner": {
+            "namespace": "scheduling_benchmark.b_schedules",
+            "parsedQuery": {},
+            "indexFilterSet": false,
+            "queryHash": "C791ECE1",
+            "planCacheShapeHash": "C791ECE1",
+            "planCacheKey": "174D0906",
+            "optimizationTimeMillis": 0,
+            "maxIndexedOrSolutionsReached": false,
+            "maxIndexedAndSolutionsReached": false,
+            "maxScansToExplodeReached": false,
+            "prunedSimilarIndexes": false,
+            "winningPlan": {
+              "isCached": false,
+              "stage": "PROJECTION_SIMPLE",
+              "transformBy": {
+                "assignments": 1,
+                "_id": 0
+              },
+              "inputStage": {
+                "stage": "COLLSCAN",
+                "direction": "forward"
+              }
+            },
+            "rejectedPlans": []
+          },
+          "executionStats": {
+            "executionSuccess": true,
+            "nReturned": 14,
+            "executionTimeMillis": 7,
+            "totalKeysExamined": 0,
+            "totalDocsExamined": 14,
+            "executionStages": {
+              "isCached": false,
+              "stage": "PROJECTION_SIMPLE",
+              "nReturned": 14,
+              "executionTimeMillisEstimate": 0,
+              "works": 15,
+              "advanced": 14,
+              "needTime": 0,
+              "needYield": 0,
+              "saveState": 2,
+              "restoreState": 1,
+              "isEOF": 1,
+              "transformBy": {
+                "assignments": 1,
+                "_id": 0
+              },
+              "inputStage": {
+                "stage": "COLLSCAN",
+                "nReturned": 14,
+                "executionTimeMillisEstimate": 0,
+                "works": 15,
+                "advanced": 14,
+                "needTime": 0,
+                "needYield": 0,
+                "saveState": 2,
+                "restoreState": 1,
+                "isEOF": 1,
+                "direction": "forward",
+                "docsExamined": 14
+              }
+            }
+          }
+        },
+        "nReturned": 14,
+        "executionTimeMillisEstimate": 0
+      },
+      {
+        "$unwind": {
+          "path": "$assignments"
+        },
+        "nReturned": 2007,
+        "executionTimeMillisEstimate": 0
+      },
+      {
+        "$match": {
+          "$and": [
+            {
+              "assignments.work_date": {
+                "$gte": "2026-01-01"
+              }
+            },
+            {
+              "assignments.work_date": {
+                "$lte": "2027-12-31"
+              }
+            }
+          ]
+        },
+        "nReturned": 2007,
+        "executionTimeMillisEstimate": 0
+      },
+      {
+        "$group": {
+          "_id": {
+            "work_date": "$assignments.work_date",
+            "position_name": "$assignments.position_name",
+            "shift_name": "$assignments.shift_name"
+          },
+          "assigned_employees": {
+            "$sum": {
+              "$const": 1
+            }
+          },
+          "$willBeMerged": false
+        },
+        "maxAccumulatorMemoryUsageBytes": {
+          "assigned_employees": 81664
+        },
+        "totalOutputDataSizeBytes": 250169,
+        "usedDisk": false,
+        "spills": 0,
+        "spilledDataStorageSize": 0,
+        "spilledBytes": 0,
+        "spilledRecords": 0,
+        "nReturned": 464,
+        "executionTimeMillisEstimate": 4
+      },
+      {
+        "$sort": {
+          "sortKey": {
+            "_id.work_date": 1,
+            "_id.position_name": 1,
+            "_id.shift_name": 1
+          }
+        },
+        "totalDataSizeSortedBytesEstimate": 310098,
+        "usedDisk": false,
+        "spills": 0,
+        "spilledDataStorageSize": 0,
+        "nReturned": 464,
+        "executionTimeMillisEstimate": 4
+      }
+    ],
+    "queryShapeHash": "EA57AF6D581508855081EBF12805CA77B4844BBDF4F05BB18B99FA8E3F70EDC2",
+    "serverInfo": {
+      "host": "56c5ef7a1003",
+      "port": 27017,
+      "version": "8.2.9",
+      "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+      "internalQueryFrameworkControl": "trySbeRestricted",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "command": {
+      "aggregate": "b_schedules",
+      "pipeline": [
+        {
+          "$unwind": "$assignments"
+        },
+        {
+          "$match": {
+            "assignments.work_date": {
+              "$gte": "2026-01-01",
+              "$lte": "2027-12-31"
+            }
+          }
+        },
+        {
+          "$group": {
+            "_id": {
+              "work_date": "$assignments.work_date",
+              "position_name": "$assignments.position_name",
+              "shift_name": "$assignments.shift_name"
+            },
+            "assigned_employees": {
+              "$sum": 1
+            }
+          }
+        },
+        {
+          "$sort": {
+            "_id.work_date": 1,
+            "_id.position_name": 1,
+            "_id.shift_name": 1
+          }
+        }
+      ],
+      "cursor": {},
+      "$db": "scheduling_benchmark"
+    },
+    "ok": 1.0
+  }
+}
