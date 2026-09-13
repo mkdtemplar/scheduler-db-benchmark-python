@@ -42,7 +42,7 @@
         "query": {}
       },
       "serverInfo": {
-        "host": "56c5ef7a1003",
+        "host": "f6d94e0181a1",
         "port": 27017,
         "version": "8.2.9",
         "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
@@ -103,7 +103,7 @@
         "query": {}
       },
       "serverInfo": {
-        "host": "56c5ef7a1003",
+        "host": "f6d94e0181a1",
         "port": 27017,
         "version": "8.2.9",
         "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
@@ -164,7 +164,7 @@
         "query": {}
       },
       "serverInfo": {
-        "host": "56c5ef7a1003",
+        "host": "f6d94e0181a1",
         "port": 27017,
         "version": "8.2.9",
         "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
@@ -294,7 +294,7 @@
       "$db": "scheduling_benchmark"
     },
     "serverInfo": {
-      "host": "56c5ef7a1003",
+      "host": "f6d94e0181a1",
       "port": 27017,
       "version": "8.2.9",
       "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
@@ -494,7 +494,7 @@
       "$db": "scheduling_benchmark"
     },
     "serverInfo": {
-      "host": "56c5ef7a1003",
+      "host": "f6d94e0181a1",
       "port": 27017,
       "version": "8.2.9",
       "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
@@ -688,7 +688,7 @@
       "$db": "scheduling_benchmark"
     },
     "serverInfo": {
-      "host": "56c5ef7a1003",
+      "host": "f6d94e0181a1",
       "port": 27017,
       "version": "8.2.9",
       "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
@@ -935,7 +935,7 @@
       "$db": "scheduling_benchmark"
     },
     "serverInfo": {
-      "host": "56c5ef7a1003",
+      "host": "f6d94e0181a1",
       "port": 27017,
       "version": "8.2.9",
       "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
@@ -1026,7 +1026,7 @@
           "executionStats": {
             "executionSuccess": true,
             "nReturned": 464,
-            "executionTimeMillis": 7,
+            "executionTimeMillis": 6,
             "totalKeysExamined": 2007,
             "totalDocsExamined": 2007,
             "executionStages": {
@@ -1205,7 +1205,7 @@
     ],
     "queryShapeHash": "F3278025B735BA0AB068D52CCCE49DC7A32EED4CE6B5AE0ADAF2CC88F6D9601E",
     "serverInfo": {
-      "host": "56c5ef7a1003",
+      "host": "f6d94e0181a1",
       "port": 27017,
       "version": "8.2.9",
       "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
@@ -1368,7 +1368,7 @@
       "$db": "scheduling_benchmark"
     },
     "serverInfo": {
-      "host": "56c5ef7a1003",
+      "host": "f6d94e0181a1",
       "port": 27017,
       "version": "8.2.9",
       "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
@@ -1449,7 +1449,7 @@
           "executionStats": {
             "executionSuccess": true,
             "nReturned": 2,
-            "executionTimeMillis": 3,
+            "executionTimeMillis": 2,
             "totalKeysExamined": 2,
             "totalDocsExamined": 2,
             "executionStages": {
@@ -1531,7 +1531,7 @@
           "path": "$assignments"
         },
         "nReturned": 1855,
-        "executionTimeMillisEstimate": 0
+        "executionTimeMillisEstimate": 1
       },
       {
         "$match": {
@@ -1540,7 +1540,7 @@
           }
         },
         "nReturned": 53,
-        "executionTimeMillisEstimate": 0
+        "executionTimeMillisEstimate": 1
       },
       {
         "$project": {
@@ -1550,7 +1550,7 @@
           "_id": false
         },
         "nReturned": 53,
-        "executionTimeMillisEstimate": 0
+        "executionTimeMillisEstimate": 1
       },
       {
         "$sort": {
@@ -1563,12 +1563,12 @@
         "spills": 0,
         "spilledDataStorageSize": 0,
         "nReturned": 53,
-        "executionTimeMillisEstimate": 0
+        "executionTimeMillisEstimate": 1
       }
     ],
     "queryShapeHash": "8E9CD6212349A5737E52C8659FE59509DF0C1F6E65E4B80B47831CF0BEAFA1E4",
     "serverInfo": {
-      "host": "56c5ef7a1003",
+      "host": "f6d94e0181a1",
       "port": 27017,
       "version": "8.2.9",
       "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
@@ -1654,7 +1654,7 @@
           "executionStats": {
             "executionSuccess": true,
             "nReturned": 14,
-            "executionTimeMillis": 7,
+            "executionTimeMillis": 6,
             "totalKeysExamined": 0,
             "totalDocsExamined": 14,
             "executionStages": {
@@ -1742,7 +1742,7 @@
         "spilledBytes": 0,
         "spilledRecords": 0,
         "nReturned": 464,
-        "executionTimeMillisEstimate": 4
+        "executionTimeMillisEstimate": 5
       },
       {
         "$sort": {
@@ -1757,12 +1757,12 @@
         "spills": 0,
         "spilledDataStorageSize": 0,
         "nReturned": 464,
-        "executionTimeMillisEstimate": 4
+        "executionTimeMillisEstimate": 5
       }
     ],
     "queryShapeHash": "EA57AF6D581508855081EBF12805CA77B4844BBDF4F05BB18B99FA8E3F70EDC2",
     "serverInfo": {
-      "host": "56c5ef7a1003",
+      "host": "f6d94e0181a1",
       "port": 27017,
       "version": "8.2.9",
       "gitVersion": "18cf44d54b9dcdc0df43a984da7c6b12006c4217"
